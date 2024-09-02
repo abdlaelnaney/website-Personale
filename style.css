@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   font-family: "Poppins", sans-serif;
+}
+
+.container{
+    padding: 10px 30px;
+    margin: 10px 0;
+}
+/*start-landing-page*/
+.landing-page{
+    background-image: url(imge/myphoto.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.landing-page .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+}
+.landing-page .container{
+    position: absolute;
+    z-index: 3;
+}
+.landing-page .container .nav-bar{
+    position: relative;
+}
+.landing-page .container .nav-bar img{
+    width: 80px;
+    border-radius: 50%;
+    border: 4px solid goldenrod;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    transition: all .5s ease;
+}
+.landing-page .container .nav-bar img:hover{
+    border: 3px solid yellow;
+    box-shadow: 3px 3px 6px wheat;
+}
+.landing-page .container .nav-bar h2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px black;
+}
+.landing-page .container .nav-bar ul{
+    position: fixed;
+    right: 32%;
+    top: 20px;
+    display: flex;
+}
+.landing-page .container .nav-bar ul li{
+    list-style: none;
+}
+.landing-page .container .nav-bar ul li a{
+    text-decoration: none;
+    color: #ff7300;
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #72ec0768;
+    transition: all .5s ease;
+    margin-right: 10px;
+}
+.landing-page .container .nav-bar ul li a:hover{
+    text-shadow: none;
+    border-bottom: 4px solid sienna;
+    border-top: 4px solid skyblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+.landing-page .container .text{
+    position: relative;
+    top: 300px;
+    left: 20px;
+    
+    line-height: 30px;
+}
+.landing-page .container .text h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.landing-page .container .text h3 span{
+    color: gold;
+}
+.landing-page .container .text p{
+    color: white;
+    font-size: 20px;
+}
+/* End-landing-page */
+/* start-About_Us */
+.About-Us{
+    background-color: #ffffffbb;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.About-Us .container .tag h2{
+    color: darkcyan;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid red;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.About-Us .container .left{
+    float: left;
+}
+.About-Us .container .left h4{
+    margin-top: 20px;
+    font-size: 25px;
+    color: gray;
+    border: 3px solid black;
+    padding: 10px;
+}
+.About-Us .container .left span{
+    color: goldenrod;
+}
+.About-Us .container .right{
+    float: right;
+}
+.About-Us .container .right img{
+    width: 300px;
+    margin-right: 40px;
+    border: 5px solid darkcyan;
+    border-radius: 50%;
+}
+/* End-About_Us */
+/* START SKILLS */
+.skills{
+    background-color: #80808059;
+    margin: 20px 0;
+}
+.skills .container .tag h2{
+    font-size: 35px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 3px 3px 6px yellow;
+    border-top: 5px solid brown;
+    border-bottom: 5px solid green;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.skills .container .boxes{
+    background-color: #000000;
+    display: flex;
+    border-radius: 20px;
+}
+.skills .container .boxes .box-one{
+    background-color: #ffffffa4;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin: 35px 45px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px red;
+}
+.skills .container .boxes .box-one img{
+    width: 150px;
+    border-radius: 30%;
+    margin: 20px 30px;
+}
+.skills .container .boxes .box-one h3{
+    font-size: 25px;
+    text-align: center;
+    color: red;
+}
+.skills .container .boxes .box-Tow{
+    background-color: #ffffffa4;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin: 20px 0;
+    margin-right: 45px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px blue;
+}
+.skills .container .boxes .box-Tow img{
+    width: 150px;
+    border-radius: 30%;
+    margin:20px 30px;
+}
+.skills .container .boxes .box-Tow h3{
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+.skills .container .boxes .box-Three{
+    background-color: #ffffffa4;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    margin: 20px 0;
+    margin-right: 45px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px yellow;
+}
+.skills .container .boxes .box-Three img{
+    width: 150px;
+    border-radius: 30%;
+    margin: 20px 30px;
+}
+.skills .container .boxes .box-Three h3{
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+    text-shadow: 3px 3px 6px black;
+}
+.skills .container .boxes .box-Four{
+    background-color: #ffffffa4;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    margin: 35px 0;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 6px blueviolet;
+}
+.skills .container .boxes .box-Four img{
+    width: 170px;
+    border-radius: 30%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.skills .container .boxes .box-Four h3{
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+    
+}
+/* END SKILLS */
+/* Start Portofolio*/
+.portofolio{
+    background-color: #ffffffc9;
+    margin: 20px 0;
+}
+.portofolio .tag h2{
+    font-size: 35px;
+    text-align: center;
+    border-top: 5px solid blueviolet;
+    border-bottom:5px solid saddlebrown;
+    color: red;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.portofolio .boxes{
+    background-color: #80808093;
+    display: flex;
+    border-radius: 20px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid goldenrod;
+}
+.portofolio .boxes .box-one{
+    background-color: #000000b6;
+    border: 3px solid blueviolet;
+    border-radius: 30px;
+    margin: 60px 30px;
+}
+.portofolio .boxes .box-one img{
+    width: 350px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin: 0 30px;
+    border-radius: 30px;
+}
+.portofolio .boxes .box-one p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-family: system-ui;
+    margin-bottom: 5px;
+}
+.portofolio .boxes .box-one a{
+    text-decoration: none;
+    font-size: 22px;
+    color: gold;
+    margin-left: 150px;
+    opacity: .6;
+    transition: all .5s ease;
+}
+.portofolio .boxes .box-one a:hover{
+    opacity: 1;
+}
+.portofolio .boxes .box-tow{
+    background-color: #ffffff;
+    border: 5px solid darkgoldenrod;
+    margin: 30px 0;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+.portofolio .boxes .box-tow img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.portofolio .boxes .box-tow p{
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+    font-family: system-ui;
+    margin-bottom: 5px;
+}
+.portofolio .boxes .box-tow a{
+    text-decoration: none;
+    font-size: 22px;
+    color: red;
+    margin-left: 130px;
+    opacity: .6;
+    transition: all .5s ease;
+}
+.portofolio .boxes .box-tow a:hover{
+    opacity: 1;
+}
+/* End Portofolio*/
+/* start contact  */
+.contact{
+    background-color: #ffffffe8;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact .container .text-hed h2{
+    text-align: center;
+    color: #00ff00;
+    font-size: 30px;
+    font-weight: bold;
+    border-top:5px solid salmon;
+    border-bottom:5px solid green;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.contact .container form{
+    margin-bottom: 80px;
+}
+.contact .container .left{
+    float: left;
+}
+.contact .container .left input{
+    display: block;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: all .5s ease;
+    margin-left: 250px;
+    border: 3px solid green;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.contact .container .left input:hover,
+.contact .container .left input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 5px solid seagreen;
+}
+
+.contact .container .right textarea{
+    width: 300px;
+    height: 150px;
+    border: none;
+    border: 3px solid slateblue;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    transition: all .5s ease;
+    display: block;
+    margin-bottom: 10px;
+}
+.contact .container .right textarea:hover,
+.contact .container .right textarea:focus{
+    outline: none;
+    border: none;
+    border-top: 5px solid saddlebrown;
+    
+}
+.contact .container .right input{
+    width: 320px;
+    border-radius: 15px;
+    border: none;
+    background-color: #00b982;
+    margin-left: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* End contact  */
+.foater{
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 10px;
+    border-bottom: 3px solid gold;
+    border-top: 3px solid orange;
+}
+.foater h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* start media  */
+@media(max-width:576px){
+    .landing-page{
+        background-image: url(imge/phone2.png);
+    }
+    .landing-page .container .nav-bar img{
+        width: 70px;
+        top: 30px;
+    }
+    .landing-page .container .nav-bar h2{
+        font-size: 20px;
+        top: 50px;
+    }
+    .landing-page .container .nav-bar ul{
+        top: 15px;
+        left: 5px;
+    }
+    .About-Us .container .left h4{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .About-Us .container .right img{
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+    .skills .container .boxes{
+        display: block;
+        padding: 20px 10px;
+    }
+    .skills .container .boxes .box-one{
+        margin: 20px 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .container .boxes .box-Tow{
+        margin: 20px 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .container .boxes .box-Three{
+        margin: 20px 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .container .boxes .box-Three h3{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .skills .container .boxes .box-Four{
+        margin: 20px 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .skills .container .boxes .box-Four img{
+        margin-top: 5px;
+    }
+    .portofolio .boxes{
+       display: block;
+       padding: 20px 10px;
+    }
+    .portofolio .boxes .box-one{
+        margin: 10px 20px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .portofolio .boxes .box-one img{
+        width: 200px;
+        margin-left: 5px;
+    }
+    .portofolio .boxes .box-one a{
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-tow{
+        margin: 10px 20px;
+        padding-bottom: 10px;
+    }
+    .portofolio .boxes .box-tow img{
+        width: 200px;
+        margin-left: 5px;
+    }
+    .portofolio .boxes .box-tow a{
+        margin-left: 20px;
+    }
+    .contact .container .left input{
+        margin-left: 1px;
+        margin-bottom: 20px;
+    }
+    .contact .container .right textarea{
+        width: 320px;
+    }
+    .contact .container .right input{
+        width: 300px;
+        margin-left: 25px;
+    }
+}
+@media(min-width:567px) and (max-width:768px){
+    .landing-page{
+        background-image: url(imge/lap.png);
+    }
+    .landing-page .container .nav-bar img{
+        left: 5px;
+    }
+    .landing-page .container .nav-bar h2{
+        left: 100px;
+    }
+    .landing-page .container .nav-bar ul{
+        right: 2px;
+    }
+    .landing-page .container .text{
+        top: 400px;
+    }
+    .About-Us .container .right img{
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    .skills .container .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+    .skills .container .boxes .box-Three{
+        padding-bottom: 40px;
+    }
+    .skills .container .boxes .box-Three img{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .skills .container .boxes .box-Four img{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .portofolio .boxes{
+        display: block;
+        padding: 10px 20px;
+    }
+    .portofolio .boxes .box-one{
+        margin: 20px 30px;
+        padding-bottom: 10px;
+    }
+    .portofolio .boxes .box-one img{
+        width: 400px;
+        margin-left: 100px;
+        margin-bottom: 1px;
+        padding: 5px;
+        padding-top: 20px;
+    }
+    .portofolio .boxes .box-one p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-one a{
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-tow{
+        margin: 20px 30px;
+        padding-bottom: 10px;
+    }
+    .portofolio .boxes .box-tow img{
+        width: 400px;
+        margin-left: 100px;
+        margin-bottom: 1px;
+        padding: 5px;
+        padding-top: 20px;
+    }
+    .portofolio .boxes .box-tow p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-tow a{
+        margin-left: 20px;
+    }
+    .contact .container .left input{
+       margin-left: 1%;
+    }
+   
+}
+@media(min-width:768px) and (max-width:992px){
+    .landing-page{
+        background-image: url(imge/lap.png);
+    }
+    .landing-page .container .nav-bar img{
+        left: 5px;
+    }
+    .landing-page .container .nav-bar h2{
+        left: 100px;
+    }
+    .landing-page .container .nav-bar ul{
+        right: 2px;
+    }
+    .landing-page .container .text{
+        top: 500px;
+    }
+    .About-Us .container .right img{
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    .skills .container .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+    .skills .container .boxes .box-Tow img{
+        margin-left: 50px;
+    }
+    .skills .container .boxes .box-Three{
+        padding-bottom: 40px;
+    }
+    .skills .container .boxes .box-Three img{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .skills .container .boxes .box-Four img{
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .portofolio .boxes{
+        display: block;
+        padding: 10px 20px;
+    }
+    .portofolio .boxes .box-one{
+        margin: 20px 30px;
+        padding-bottom: 10px;
+    }
+    .portofolio .boxes .box-one img{
+        width: 400px;
+        margin-left: 100px;
+        margin-bottom: 1px;
+        padding: 5px;
+        padding-top: 20px;
+    }
+    .portofolio .boxes .box-one p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-one a{
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-tow{
+        margin: 20px 30px;
+        padding-bottom: 10px;
+    }
+    .portofolio .boxes .box-tow img{
+        width: 400px;
+        margin-left: 100px;
+        margin-bottom: 1px;
+        padding: 5px;
+        padding-top: 20px;
+    }
+    .portofolio .boxes .box-tow p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .portofolio .boxes .box-tow a{
+        margin-left: 20px;
+    }
+    .contact .container .left input{
+       margin-left: 1%;
+    }
+   
+}
+
+/* End media  */
